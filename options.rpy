@@ -46,9 +46,9 @@ define build.name = "keyboardsmash"
 ## игроку по умолчанию. Установка одной из них в False скроет соответствующий
 ## микшер.
 
-define config.has_sound = True
-define config.has_music = True
-define config.has_voice = True
+define config.has_sound = False
+define config.has_music = False
+define config.has_voice = False
 
 
 ## Чтобы разрешить игроку тестировать громкость на звуковом или голосовом
