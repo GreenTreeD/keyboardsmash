@@ -30,6 +30,8 @@ define config.version = "1.0"
 ## Для отделения абзацев оставляйте между ними пустую строку.
 
 define gui.about = _p("""
+
+Музыка: @moonjelly0 (twitter)
 """)
 
 
@@ -89,7 +91,7 @@ define config.after_load_transition = None
 
 ## Используется при входе в главное меню после того, как игра закончится.
 
-define config.end_game_transition = None
+define config.end_game_transition = fade
 
 
 ## Переменная, устанавливающая переход, когда старт игры не существует. Вместо
